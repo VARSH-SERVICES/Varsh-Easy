@@ -17,7 +17,10 @@ const About = () => {
                             <p className="miniTitle">about us</p>
                             <h1 className="headerTitle">HOW WE CAN HELP YOUR <span className="headerHighlight">BUSINESS</span> GOAL</h1>
                             <p className="headerContent">Choosing a suitable theme for your business isn’t hard if you know what to look for. A solid bundled contact form plugin enables customers to make contact with you, and a means of displaying your business and location information prominently is also essential.</p>
-                            <button className="branBtn">learn More</button>
+                            <button className="branBtn">
+                            <a href="https://varshservices.com/about" style={{"color":"white","text-decoration":"none"}}>
+                                learn More
+                            </a></button>
                         </Fade>
                     </div>
                 </div>

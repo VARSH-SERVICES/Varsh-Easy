@@ -15,7 +15,7 @@ const Sidebar = ({setTitle}) => {
                 <div className="sideBrnIcon">
                     <FontAwesomeIcon icon={faBuffer}/>
                     </div>
-                <h2>Easy <span className="navHighlight">Consulting</span></h2>
+                <h2>Varsh <span className="navHighlight">Services</span></h2>
             </div>
             <nav id="sideNavbar">
                 <ul>    

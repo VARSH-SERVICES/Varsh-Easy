@@ -3,7 +3,6 @@ import About from '../About/About';
 import BrowserSupport from '../BrowserSupport/BrowserSupport';
 import BuildTools from '../BuildTools/BuildTools';
 import Contact from '../Contact/Contact';
-import Footer from '../Footer/Footer';
 import HappyClient from '../HappyClient/HappyClient';
 import Header from '../Header/Header';
 import Pricing from '../Pricing/Pricing';
@@ -22,8 +21,6 @@ const Home = () => {
             <Pricing/>
             <Reviews/>
             <Contact/>
-            <Footer/>
-            {/* <ScrollTop/>   */}
         </main>
     );
 };

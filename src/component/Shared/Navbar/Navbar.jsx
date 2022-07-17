@@ -29,7 +29,7 @@ const NavBar = () => {
         <Navbar className={`navbar navbar-expand-lg navbar-light ${isSticky ? "navStyle" : "navDefault"}`} expand="lg">
             <Container>
                 <Navbar.Brand as={Link} to="/" onClick={scrollTop} className="navBrn">
-                    <FontAwesomeIcon icon={faBuffer} className="brnIcon" /> Easy <span className="navHighlight">Consulting</span>
+                    <FontAwesomeIcon icon={faBuffer} className="brnIcon" /> Varsh <span className="navHighlight">Services</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" />
@@ -46,6 +46,9 @@ const NavBar = () => {
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link href="#contact" className="nav-link">Contact Us</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href="https://varsh-services.github.io/Satanist---web/" className="nav-link">Satanist</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link as={Link} to="/dashboard/profile" className="nav-link">Dashboard</Nav.Link>

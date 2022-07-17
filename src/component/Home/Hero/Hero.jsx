@@ -7,6 +7,8 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Typed from 'react-typed';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 const Hero = () => {
     const theme = useTheme();
@@ -17,14 +19,14 @@ const Hero = () => {
     return (
         <Grid container spacing={4}>
             <Grid item container xs={12} md={6} alignItems={'center'}>
-                <Box data-aos={isMd ? 'fade-right' : 'fade-up'} paddingLeft={isMd && 2} p={1}>
+                <Box data-aos={isMd ? 'fade-right' : 'fade-up'} paddingLeft={isMd && 2} p={10}>
                     <Box marginBottom={2}>
                         <Typography
                             variant="h4"
                             color="text.primary"
                             sx={{ fontWeight: 700 }}
                         >
-                            Easy Consulting{' '} <br />
+                            Varsh Services{' '} <br />
                             Start Your {' '}
                             <Typography
                                 color={'primary'}
@@ -44,9 +46,9 @@ const Hero = () => {
                     </Box>
                     <Box marginBottom={3}>
                         <Typography variant="h6" component="p" color="text.secondary">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, delectus.
+                            Varsh provides 360 degree solutions which are required to be integrated into your system. 
                             <br />
-                            Lorem ipsum dolor sit amet.
+                            Digitize your business with our robust IT solutions and services.
                         </Typography>
                     </Box>
                     <Box
@@ -57,21 +59,25 @@ const Hero = () => {
                         <Button
                             variant="contained"
                             color="primary"
-                            size="large"
+                            size="small"
                             fullWidth={isMd ? false : true}
                         >
-                            Start now
+                            <Nav.Item>
+                            <Nav.Link as={Link} to="/dashboard/profile" style={{"textDecoration":"none","color":"white"}}>Start now</Nav.Link>
+                        </Nav.Item>
                         </Button>
                         <Box
                             component={Button}
                             variant="outlined"
                             color="primary"
                             size="large"
-                            marginTop={{ xs: 2, sm: 0 }}
+                            marginTop={{ xs: 3, sm: 0.2 }}
                             marginLeft={{ sm: 2 }}
                             fullWidth={isMd ? false : true}
                         >
-                            Learn more
+                        <a href="https://varshservices.com/about" style={{"textDecoration":"none"}}>
+                        Learn more
+                        </a>
                         </Box>
                     </Box>
                 </Box>

@@ -5,10 +5,10 @@ import './HappyClient.css';
 import CountUp from 'react-countup';
 const HappyClient = () => {
     const workDetails = [
-        { title: 'Happy Clients', number: 542, id: 1 },
-        { title: 'Projects', number: 623, id: 2 },
-        { title: 'Hours of Support', number: 1634, id: 3 },
-        { title: 'Hard Workers', number: 31, id: 4 }
+        { title: 'Happy Clients', number: 12, id: 1 },
+        { title: 'Projects', number: 7, id: 2 },
+        { title: 'Hours of Support', number: 114, id: 3 },
+        { title: 'Hard Workers', number: 15, id: 4 }
     ]
     return (
         <section className="ourValue">

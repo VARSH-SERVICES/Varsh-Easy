@@ -25,7 +25,7 @@ export const ReviewsData = [
     },
     {
       "_id": "62a4aed9d80cfcea058a5797",
-      "name": "Vindhyachal Construction",
+      "name": "Vindhyachal Constructions",
       "address": "A construction B2B company",
       "description": "I am so pleased with this product. Varsh is both attractive and highly adaptable. Without Varsh, our business couldn’t have grown that much in such less time. Thank you for creating this product!",
       "email": "amabdi246@gmail.com",

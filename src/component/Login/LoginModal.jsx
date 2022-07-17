@@ -63,7 +63,7 @@ const Form = () => {
           <div className="panel left-panel">
             <div className="content">
               <h3>New here ?</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi beatae quas magnam!</p>
+              <p>Sign up here</p>
               <button className="iBtn transparent" onClick={() => setSignUp(true)}>Sign Up</button>
             </div>
             <img src={`${log}`} alt="" className="pImg"/>
@@ -72,7 +72,7 @@ const Form = () => {
           <div className="panel right-panel">
             <div className="content">
               <h3>One of us ?</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi beatae quas magnam!</p>
+              <p>Login here</p>
               <button className="iBtn transparent" onClick={() => setSignUp(false)}>Sign In</button>
             </div>
             <img src={`${desk}`} alt="" className="pImg"/>

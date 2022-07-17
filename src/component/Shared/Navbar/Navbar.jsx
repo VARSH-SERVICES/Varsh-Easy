@@ -2,13 +2,13 @@ import React, { useContext } from 'react';
 import { Link } from "react-router-dom";
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBuffer } from '@fortawesome/free-brands-svg-icons';
+// import { faBuffer } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import PopOver from '../PopOver/PopOver';
 import { UserContext } from '../../../App';
-
+import faBuffer from "../../../logo.png";
 
 const NavBar = () => {
     const { user } = useContext(UserContext)
@@ -29,7 +29,7 @@ const NavBar = () => {
         <Navbar className={`navbar navbar-expand-lg navbar-light ${isSticky ? "navStyle" : "navDefault"}`} expand="lg">
             <Container>
                 <Navbar.Brand as={Link} to="/" onClick={scrollTop} className="navBrn">
-                    <FontAwesomeIcon icon={faBuffer} className="brnIcon" /> Varsh <span className="navHighlight">Services</span>
+                    <img src={faBuffer} alt="icon" height="80" width="80"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" />

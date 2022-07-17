@@ -40,7 +40,7 @@ const Dashboard = () => {
             </div>
             <div id="pageContent">
                 <div className="dashBoardHeader">
-                    <div className="d-flex align-items-center">
+                    {/* <div className="d-flex align-items-center">
                         <div id="nav-icon"
                         className={sideToggle ? "menu-btn" : "menu-btn open"}
                         onClick={() => setSideToggle(!sideToggle)}>
@@ -52,7 +52,7 @@ const Dashboard = () => {
                             <span></span>
                         </div>
                         <h3>{title}</h3>
-                    </div>
+                    </div> */}
                     <PopOver/> 
                 </div>
                  {

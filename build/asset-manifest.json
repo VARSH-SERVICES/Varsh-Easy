@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dac5968c.chunk.css",
+    "main.js": "/static/js/main.3a167c46.chunk.js",
+    "main.js.map": "/static/js/main.3a167c46.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.981ce257.js",
+    "runtime-main.js.map": "/static/js/runtime-main.981ce257.js.map",
+    "static/css/2.be582b9e.chunk.css": "/static/css/2.be582b9e.chunk.css",
+    "static/js/2.4379ede8.chunk.js": "/static/js/2.4379ede8.chunk.js",
+    "static/js/2.4379ede8.chunk.js.map": "/static/js/2.4379ede8.chunk.js.map",
+    "static/js/3.6c29d4bc.chunk.js": "/static/js/3.6c29d4bc.chunk.js",
+    "static/js/3.6c29d4bc.chunk.js.map": "/static/js/3.6c29d4bc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.be582b9e.chunk.css.map": "/static/css/2.be582b9e.chunk.css.map",
+    "static/css/main.dac5968c.chunk.css.map": "/static/css/main.dac5968c.chunk.css.map",
+    "static/js/2.4379ede8.chunk.js.LICENSE.txt": "/static/js/2.4379ede8.chunk.js.LICENSE.txt",
+    "static/media/404.4861ae77.svg": "/static/media/404.4861ae77.svg",
+    "static/media/about.5342ef52.svg": "/static/media/about.5342ef52.svg",
+    "static/media/Header.css": "/static/media/bg.431db87d.png",
+    "static/media/contact.ea900458.svg": "/static/media/contact.ea900458.svg",
+    "static/media/info.4249f4be.svg": "/static/media/info.4249f4be.svg",
+    "static/media/log.4715ac4b.svg": "/static/media/log.4715ac4b.svg",
+    "static/media/logo.94b02e5e.png": "/static/media/logo.94b02e5e.png",
+    "static/media/register.c806b081.svg": "/static/media/register.c806b081.svg",
+    "static/media/s1.c328967e.png": "/static/media/s1.c328967e.png",
+    "static/media/s2.73cca2df.png": "/static/media/s2.73cca2df.png",
+    "static/media/s3.16df4465.png": "/static/media/s3.16df4465.png",
+    "static/media/s4.9bfcb317.png": "/static/media/s4.9bfcb317.png",
+    "static/media/s5.39a022d9.png": "/static/media/s5.39a022d9.png",
+    "static/media/s6.6df91086.png": "/static/media/s6.6df91086.png",
+    "static/media/user.5fca3197.svg": "/static/media/user.5fca3197.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.981ce257.js",
+    "static/css/2.be582b9e.chunk.css",
+    "static/js/2.4379ede8.chunk.js",
+    "static/css/main.dac5968c.chunk.css",
+    "static/js/main.3a167c46.chunk.js"
+  ]
+}
